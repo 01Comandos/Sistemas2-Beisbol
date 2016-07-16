@@ -380,10 +380,10 @@ header
 body
 	background-color #ECF2F6
 	background-image url("../img/body.png")
-	background-position center
+	/*background-position center*/
 	background-repeat no-repeat
-	background-size cover
-	height 100%
+	/*background-size cover
+	height 100%*/
 	
 .u-general
 	width 80em
@@ -445,6 +445,23 @@ body
 			p
 				font-size 1.3em	
 				padding 0 0 0 0.5em
+			&.notificaciones
+				position relative
+				figure
+					span
+						color azul-corporativo
+				.search
+					position absolute
+					right 1em
+					a
+						display inline-block
+						span
+							color gris1
+							transition .2s linear
+							font-size 1.5em
+						&:hover
+							span
+								color azul-ticket
 		.buyTickets
 			margin 1em 0 2em 0 
 			padding 0
@@ -472,6 +489,7 @@ body
 							padding 1.5em 0.7em
 					&:hover
 						border-bottom 5px solid azul-corporativo
+						background gris2
 		&-tickets
 			li
 				flex-between()
