@@ -137,7 +137,7 @@
 			<ul class="buyTickets">
 				<!--PARTIDO 1-->
 				<li>
-					<a href="#">
+					<a href="newTicket.php">
 						<div class="partidoContainer">
 							<figure>
 								<img src="img/miami.jpg" alt="">
@@ -157,7 +157,7 @@
 
 				<!--PARTIDO 2-->
 				<li>
-					<a href="#">
+					<a href="newTicket.php">
 						<div class="partidoContainer">
 							<figure>
 								<img src="img/indios.jpg" alt="">
@@ -177,7 +177,7 @@
 
 				<!--PARTIDO 3-->
 				<li>
-					<a href="#">
+					<a href="newTicket.php">
 						<div class="partidoContainer">
 							<!--EQUIPO 1-->
 							<figure>
@@ -198,7 +198,7 @@
 
 				<!--PARTIDO 4-->
 				<li>
-					<a href="#">
+					<a href="newTicket.php">
 						<div class="partidoContainer">
 							<!--EQUIPO 1-->
 							<figure>
