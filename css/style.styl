@@ -1,0 +1,452 @@
+/*
+
+	Proyecto: Final de Sistemas de Información 2 - UDO - Venezuela
+
+	Maquetado por: @01Comandos
+
+	Fecha: 13/07/2016;
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+
+/*
+	IMPORTACIONES
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+@import 'nib'
+@import 'style-icon.styl'
+@import 'rslides.styl'
+
+
+@font-face 
+    font-family 'Strawberry-Muffins'
+    src url('../fonts/Strawberry-Muffins.ttf')
+
+@font-face 
+	font-family 'Lato-Semibold'
+	src url('../fonts/Lato-Semibold.ttf')
+
+@font-face 
+	font-family 'Lato-Regular'
+	src url('../fonts/Lato-Regular.ttf')
+	
+@font-face 
+	font-family 'MyriadPro-Semibold'
+	src url('../fonts/MyriadPro-Semibold.otf')	
+
+/*
+	VARIABLES
+-------------------------------------------------------------------------*/
+gris-claro = #f2f2f2
+gris-texto = #969798
+gris-texto2 = #4d4d4d
+gris-texto3 = #484848
+
+gris1= #BDCCD4
+gris2= #E0E0E0
+gris3= #757575
+
+rojo1 = #EE2D24
+vinotinto = #840B28
+
+verde-corporativo = #19A717
+verde-sombra = #009245
+verde-fluorescente = #00ff6d
+
+azul1 = #006699
+azul2 = #4051b5
+azul3 = #29abe2
+azul4 = #2189e6
+azul-corporativo = #007EB1
+
+naranja = #f18324
+
+
+
+
+/*
+	MIXINS
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+flex-center()
+	display flex
+	flex-wrap wrap
+	justify-content center
+	
+flex-around()
+	display flex
+	flex-wrap wrap
+	justify-content space-around
+	
+flex-between()
+	display flex
+	flex-wrap wrap
+	justify-content space-between
+	
+flex-flexStart()
+	display flex
+	flex-wrap wrap
+	justify-content flex-start
+		
+inputs()
+	margin 0 auto 1em auto
+	label
+		text-align left
+		display block !important
+		padding 0 0 0.4em 0.7em
+		color black
+		font-size 1em
+		font-family 'MyriadPro-Semibold',sans-serif
+		position static
+	input[type="submit"]
+		width 7em !important
+		text-indent 0
+		
+degrade()
+  background linear-gradient(90deg, rgba(96, 190, 226, 1) 0%, rgba(200, 60, 146, 1) 100%);
+
+
+/*
+	CLASES MADRES
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/		
+body
+	font-size 16px
+	margin 0
+	background-color gris-new
+	
+.btn-main
+	color white
+	font-size 1em
+	font-family 'Lato-Regular',sans-serif
+	background verde-corporativo !important
+	border 0	
+	padding 0.7em 1em
+	border-radius 4px
+	transition .2s linear
+	&:hover
+		background #4CAF50 !important
+	
+.btn-return
+	color gris-login
+	font-size 1em
+	font-family 'Lato-Regular',sans-serif
+	background gris-claro !important
+	border 0
+	border-bottom 4px solid gris-login
+	padding 0.7em 1em
+	border-radius 4px
+	transition .2s linear
+	&:hover
+		background #d7dadd !important	
+h1
+	margin 0
+	padding 0
+	font-size 3em
+	font-family 'Lato-Regular',sans-serif
+h2
+h3
+h4
+h5
+h6
+	margin 0
+	padding 0
+	font-family 'Lato-Regular',sans-serif
+		
+p
+	margin 0
+	padding 0
+	font-size 1em
+	font-family 'Lato-Regular',sans-serif
+	
+figure
+	margin 0
+
+ul
+	li
+		list-style none
+
+a
+	text-decoration none
+
+input
+	width 100% !important
+	font-size 1em !important
+	height 2.7em !important
+	background gris-claro !important
+	border-bottom 0 !important
+	border-radius 7px !important
+	text-indent 1em
+
+
+/*
+	CORRECCIONES AL FRAMEWORK
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/	
+.btn, .btn-large{
+	background azul4
+}
+
+.btn:hover, .btn-large:hover{
+	background azul4-oscuro
+}
+/* label focus color */
+input:not([type]):focus:not([readonly])
+input[type=text]:focus:not([readonly])
+input[type=password]:focus:not([readonly])
+input[type=email]:focus:not([readonly])
+input[type=url]:focus:not([readonly])
+input[type=time]:focus:not([readonly])
+input[type=date]:focus:not([readonly])
+input[type=datetime]:focus:not([readonly])
+input[type=datetime-local]:focus:not([readonly])
+input[type=tel]:focus:not([readonly])
+input[type=number]:focus:not([readonly])
+input[type=search]:focus:not([readonly])
+textarea.materialize-textarea:focus:not([readonly])
+	background white !important
+	border 1px solid azul4 !important
+	border-bottom 0 !important;
+	box-shadow: 0 1px 0 0 azul4 !important;
+	
+input:not([type]):focus:not([readonly])+label
+input[type=text]:focus:not([readonly])+label
+input[type=password]:focus:not([readonly])+label
+input[type=email]:focus:not([readonly])+label
+input[type=url]:focus:not([readonly])+label
+input[type=time]:focus:not([readonly])+label
+input[type=date]:focus:not([readonly])+label
+input[type=datetime]:focus:not([readonly])+label
+input[type=datetime-local]:focus:not([readonly])+label
+input[type=tel]:focus:not([readonly])+label
+input[type=number]:focus:not([readonly])+label
+input[type=search]:focus:not([readonly])+label
+textarea.materialize-textarea:focus:not([readonly])+label
+	color azul4 !important
+	
+.input-field label.active
+	transform translateY(0) !important	
+	
+
+	
+
+/*
+	LOGIN
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+.bodyLogin
+	background-color black
+	background-image url("../img/background-login.png")
+	background-position center
+	background-repeat no-repeat
+	background-size cover
+	height 100%	
+	
+.loginContainer
+	width 27em
+	margin 6em auto 0 auto
+	background white
+	border-radius 7px
+	padding 2em
+	figure
+		width 40%
+		margin 0 auto
+		img
+			width 100%
+			
+	form
+		.itemForm
+			inputs()
+			/.submit
+				text-align center
+		.recoverPassword
+			text-align center
+			p
+				text-align center
+				a
+					color naranja
+					&:hover
+						font-family 'Lato-Semibold',sans-serif
+						text-decoration underline
+		/.recoverForm
+			display none
+
+
+	
+/*
+	ERROR 404
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/	
+.body404
+	background-color gris-login
+	background-image url("../img/error404.jpg")
+	background-position center
+    background-repeat no-repeat
+    background-size cover
+    height 100vh
+    width 100vw
+
+.body404-text
+	text-align center
+	width 60%
+	margin 30vh auto 0 auto
+	color gris-texto3
+	h1
+		margin 0
+		padding 0
+		font-size 3em
+		font-family 'Lato-Semibold',sans-serif
+	p
+		font-size 1.3em
+	&-button
+		margin-top 1em
+		padding 0.5em
+		a
+			display inline-block !important
+			font-size 1.1em
+
+/*
+	HEADER
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+header
+	background white
+	padding 0 1em
+	flex-between()
+	.item
+		a
+			display inline-block
+			img
+				width 5em
+	nav
+		background none
+		box-shadow none
+		color gris-texto3
+		height auto
+		line-height inherit
+		width auto
+		ul
+			padding 1.3em 0 0 0
+			margin 0
+			li
+				padding 0 1em
+				border-right 1px solid gris1
+				a
+					display inline-block
+					padding 0
+					span
+						color gris1
+						transition .2s linear
+						font-size 2.1em
+					&:hover
+						background none
+						span 
+							color azul-corporativo
+				&:nth-child(3)
+					figure
+						display inline-block
+						width 2em
+						img
+							width 100%
+					p
+						display inline-block
+						vertical-align top
+						padding-top 0.3em
+				&:last-child
+					padding 0 0 0 1em
+					border-right 0			
+					a
+						background rojo1
+						border-radius 3px
+						padding 0.5em 1em
+						flex-flexStart()
+						span
+							color vinotinto
+							font-size 1.3em
+						p
+							color white
+							padding-left 0.3em
+
+.header-degrade
+	height 3px
+	degrade()	
+					
+/*
+	INDEX
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+body
+	background-color #ECF2F6
+	background-image url("../img/body.png")
+	background-position center
+	background-repeat no-repeat
+	background-size cover
+	height 100vh
+
+				
+    			
+/*
+	REGISTRO
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+.bodyLogin
+	background-color black
+	background-image url("../img/background-login.png")
+	background-position center
+	background-repeat no-repeat
+	background-size cover
+	height 100vh
+    
+
+
+
+/*
+	NUEVO SERVICIO
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+		
+
+
+/*
+	PHOTOLIST
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+.photoList
+    text-align center
+    margin 1em auto 0.5em auto
+    li
+        width 6.5em
+        height 6.5em
+        background-color naranja
+        display inline-flex
+        color #FFFFFF
+        position relative
+        border-radius 50%
+        
+        span
+            font-size 2.5em
+            position absolute
+            left 32%
+            top 30%
+            
+        input
+            position absolute
+            border solid transparent
+            opacity 0.0
+            /*filter: alpha(opacity=0);*/
+            -o-transform translate(250px, -50px) scale(1)
+            -moz-transform translate(-300px, 0) scale(4)
+            direction ltr
+            cursor pointer
+            margin 0
+            top 0
+            left 0
+            bottom 0
+            width 6em
+        &:first-child
+            display block
+            margin 0 auto 1.1em auto				
+				
+
+
+@import 'media-queries.styl'    			
