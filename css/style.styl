@@ -38,6 +38,7 @@
 	VARIABLES
 -------------------------------------------------------------------------*/
 gris-claro = #f2f2f2
+gris-claro2 = #FAFAFA
 gris-texto = #969798
 gris-texto2 = #4d4d4d
 gris-texto3 = #484848
@@ -58,6 +59,7 @@ azul2 = #4051b5
 azul3 = #29abe2
 azul4 = #2189e6
 azul-corporativo = #007EB1
+azul-ticket = #3F51B5
 
 naranja = #f18324
 
@@ -381,7 +383,161 @@ body
 	background-position center
 	background-repeat no-repeat
 	background-size cover
-	height 100vh
+	height 100%
+	
+.u-general
+	width 80em
+	margin 2.5em auto
+	flex-between()
+	&-partidos
+		background white
+		border-radius 6px
+		width 30%
+		max-height 44em
+		&-title
+			padding 1.5em
+			h4
+				font-size 1em
+				margin-bottom 1em
+			h2
+				font-size 2em
+		&-item
+			padding 1em 0 1em 1em
+			flex-between()
+			h3
+				color naranja
+				font-size 1em
+				width 100%
+			.itemPartido
+				margin-top 0.5em
+				width 45%
+				figure
+					text-align center
+					img
+						border-radius 50%
+						border 4px solid azul-corporativo
+						width 4em
+				.vs
+					color verde-corporativo
+					font-size 1.3em
+					padding 1.5em 0.7em
+				h4
+					font-size 1em
+				h2
+					font-size 1.7em
+				&:nth-child(2)
+					width 50%
+					flex-center()
+				&:nth-child(3)
+					border-left 1px solid gris1
+					padding 1em 0 0 1em
+			&:nth-child(2n)
+				background gris-claro2
+	&-actions
+		width 65%
+		&-titleVendedor
+			background white
+			border-radius 5px
+			padding 0.7em
+			flex-flexStart()
+			figure
+				font-size 1.7em
+			p
+				font-size 1.3em	
+				padding 0 0 0 0.5em
+		.buyTickets
+			margin 1em 0 2em 0 
+			padding 0
+			flex-center()
+			li
+				width 25%
+				a
+					display inline-block
+					background gris-claro2
+					border-radius 9px
+					border-bottom 5px solid verde-corporativo
+					transition .2s linear
+					padding 0.5em
+					.partidoContainer
+						flex-center()
+						figure
+							text-align center
+							img
+								border-radius 50%
+								border 4px solid azul-corporativo
+								width 4em
+						.vs
+							color verde-corporativo
+							font-size 1.3em
+							padding 1.5em 0.7em
+					&:hover
+						border-bottom 5px solid azul-corporativo
+		&-tickets
+			li
+				flex-between()
+				.ticket-juego
+					border-left 8px solid verde-corporativo
+					width 50%
+					background white
+					padding 0.7em
+					flex-center()
+					.partidoContainer
+						width 50%
+						flex-center()
+						h2
+							width 100%
+							text-align center
+							font-size 1.1em
+						figure
+							text-align center
+							img
+								border-radius 50%
+								border 4px solid azul-corporativo
+								width 3.5em
+						.vs
+							color verde-corporativo
+							font-size 1.3em
+							padding 1.5em 0.7em
+						
+						&:nth-child(2)
+							width 40%
+							h4
+								font-size 1em
+								color naranja
+								width 100%
+							h3
+								font-size 1.1em
+								width 100%
+				.partidoEspectador
+					width 48%
+					border-radius 0 9px 9px 0
+					background-color azul-ticket
+					background-image url("../img/background-ticket.png")
+					background-position right
+					background-repeat no-repeat
+					background-size contain
+					flex-between()
+					.item
+						width 70%
+						color white
+						padding 1.5em
+						h3
+							font-size 1.2em
+						&-date
+							border-left 2px solid white
+							padding-left 0.7em
+							margin 0.5em 0 0 0.9em
+						&:nth-child(2)
+							width 30%
+							text-align right
+							padding-left 0
+							h2
+								font-size 1.3em
+						
+						
+						
+					
+			
 
 				
     			
