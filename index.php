@@ -16,110 +16,118 @@
 
 			<!--PARTIDO 1-->
 			<div class="u-general-partidos-item">
-				<h3>17:00 - 11Julio2016</h3>
-				<!--EQUIPOS-->
-				<div class="itemPartido">
-					<!--EQUIPO 1-->
-					<figure>
-						<img src="img/miami.jpg" alt="">
-						<p>Miami</p>
-					</figure>
-					<div class="vs">
-						<span class="icon-Beisbol_vs"></span>
+				<a href="play.php">
+					<h3>17:00 - 11Julio2016</h3>
+					<!--EQUIPOS-->
+					<div class="itemPartido">
+						<!--EQUIPO 1-->
+						<figure>
+							<img src="img/miami.jpg" alt="">
+							<p>Miami</p>
+						</figure>
+						<div class="vs">
+							<span class="icon-Beisbol_vs"></span>
+						</div>
+						<!--EQUIPO 2-->
+						<figure>
+							<img src="img/yankees.jpg" alt="">
+							<p>Yankees</p>
+						</figure>
 					</div>
-					<!--EQUIPO 2-->
-					<figure>
-						<img src="img/yankees.jpg" alt="">
-						<p>Yankees</p>
-					</figure>
-				</div>
 
-				<!--PRECIO Y ASIENTOS-->
-				<div class="itemPartido">
-					<h4>398 Asientos - A</h4>
-					<h2>€ 5.064,00</h2>
-				</div>
+					<!--PRECIO Y ASIENTOS-->
+					<div class="itemPartido">
+						<h4>398 Asientos - A</h4>
+						<h2>€ 5.064,00</h2>
+					</div>
+				</a>					
 			</div>
 
 			<!--PARTIDO 2-->
 			<div class="u-general-partidos-item">
-				<h3>15:00 - 11Julio2016</h3>
-				<!--EQUIPOS-->
-				<div class="itemPartido">
-					<!--EQUIPO 1-->
-					<figure>
-						<img src="img/indios.jpg" alt="">
-						<p>Indios</p>
-					</figure>
-					<div class="vs">
-						<span class="icon-Beisbol_vs"></span>
+				<a href="play.php">
+					<h3>15:00 - 11Julio2016</h3>
+					<!--EQUIPOS-->
+					<div class="itemPartido">
+						<!--EQUIPO 1-->
+						<figure>
+							<img src="img/indios.jpg" alt="">
+							<p>Indios</p>
+						</figure>
+						<div class="vs">
+							<span class="icon-Beisbol_vs"></span>
+						</div>
+						<!--EQUIPO 2-->
+						<figure>
+							<img src="img/orioles.jpg" alt="">
+							<p>Orioles</p>
+						</figure>
 					</div>
-					<!--EQUIPO 2-->
-					<figure>
-						<img src="img/orioles.jpg" alt="">
-						<p>Orioles</p>
-					</figure>
-				</div>
 
-				<!--PRECIO Y ASIENTOS-->
-				<div class="itemPartido">
-					<h4>780 Asientos - B</h4>
-					<h2>€ 9.287,50</h2>
-				</div>
+					<!--PRECIO Y ASIENTOS-->
+					<div class="itemPartido">
+						<h4>780 Asientos - B</h4>
+						<h2>€ 9.287,50</h2>
+					</div>
+				</a>					
 			</div>
 
 			<!--PARTIDO 3-->
 			<div class="u-general-partidos-item">
-				<h3>18:00 - 12Julio2016</h3>
-				<!--EQUIPOS-->
-				<div class="itemPartido">
-					<!--EQUIPO 1-->
-					<figure>
-						<img src="img/toronto.jpg" alt="">
-						<p>Toronto</p>
-					</figure>
-					<div class="vs">
-						<span class="icon-Beisbol_vs"></span>
+				<a href="play.php">
+					<h3>18:00 - 12Julio2016</h3>
+					<!--EQUIPOS-->
+					<div class="itemPartido">
+						<!--EQUIPO 1-->
+						<figure>
+							<img src="img/toronto.jpg" alt="">
+							<p>Toronto</p>
+						</figure>
+						<div class="vs">
+							<span class="icon-Beisbol_vs"></span>
+						</div>
+						<!--EQUIPO 2-->
+						<figure>
+							<img src="img/ubs.jpg" alt="">
+							<p>UBS</p>
+						</figure>
 					</div>
-					<!--EQUIPO 2-->
-					<figure>
-						<img src="img/ubs.jpg" alt="">
-						<p>UBS</p>
-					</figure>
-				</div>
 
-				<!--PRECIO Y ASIENTOS-->
-				<div class="itemPartido">
-					<h4>312 Asientos - C</h4>
-					<h2>€ 4.137,22</h2>
-				</div>
+					<!--PRECIO Y ASIENTOS-->
+					<div class="itemPartido">
+						<h4>312 Asientos - C</h4>
+						<h2>€ 4.137,22</h2>
+					</div>
+				</a>					
 			</div>
 
 			<!--PARTIDO 4-->
 			<div class="u-general-partidos-item">
-				<h3>19:00 - 12Julio2016</h3>
-				<!--EQUIPOS-->
-				<div class="itemPartido">
-					<!--EQUIPO 1-->
-					<figure>
-						<img src="img/mets.jpg" alt="">
-						<p>Mets</p>
-					</figure>
-					<div class="vs">
-						<span class="icon-Beisbol_vs"></span>
+				<a href="play.php">
+					<h3>19:00 - 12Julio2016</h3>
+					<!--EQUIPOS-->
+					<div class="itemPartido">
+						<!--EQUIPO 1-->
+						<figure>
+							<img src="img/mets.jpg" alt="">
+							<p>Mets</p>
+						</figure>
+						<div class="vs">
+							<span class="icon-Beisbol_vs"></span>
+						</div>
+						<!--EQUIPO 2-->
+						<figure>
+							<img src="img/miami.jpg" alt="">
+							<p>Miami</p>
+						</figure>
 					</div>
-					<!--EQUIPO 2-->
-					<figure>
-						<img src="img/miami.jpg" alt="">
-						<p>Miami</p>
-					</figure>
-				</div>
 
-				<!--PRECIO Y ASIENTOS-->
-				<div class="itemPartido">
-					<h4>157 Asientos - D</h4>
-					<h2>€ 1.571,64</h2>
-				</div>
+					<!--PRECIO Y ASIENTOS-->
+					<div class="itemPartido">
+						<h4>157 Asientos - D</h4>
+						<h2>€ 1.571,64</h2>
+					</div>
+				</a>					
 			</div>
 		</article>
 

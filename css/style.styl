@@ -410,35 +410,42 @@ body
 			h2
 				font-size 2em
 		&-item
-			padding 1em 0 1em 1em
-			flex-between()
-			h3
-				color naranja
-				font-size 1em
-				width 100%
-			.itemPartido
-				margin-top 0.5em
-				width 45%
-				figure
-					text-align center
-					img
-						border-radius 50%
-						border 4px solid azul-corporativo
-						width 4em
-				.vs
-					color verde-corporativo
-					font-size 1.3em
-					padding 1.5em 0.7em
-				h4
+			a
+				display inline-block
+				padding 1em 0 1em 1em
+				color black
+				transition .2s linear
+				flex-between()
+				h3
+					color naranja
 					font-size 1em
-				h2
-					font-size 1.7em
-				&:nth-child(2)
-					width 50%
-					flex-center()
-				&:nth-child(3)
-					border-left 1px solid gris1
-					padding 1em 0 0 1em
+					width 100%
+				.itemPartido
+					margin-top 0.5em
+					width 45%
+					figure
+						text-align center
+						img
+							border-radius 50%
+							border 4px solid azul-corporativo
+							width 4em
+					.vs
+						color verde-corporativo
+						font-size 1.3em
+						padding 1.5em 0.7em
+					h4
+						font-size 1em
+					h2
+						font-size 1.7em
+					&:nth-child(2)
+						width 50%
+						flex-center()
+					&:nth-child(3)
+						border-left 1px solid gris1
+						padding 1em 0 0 1em
+				&:hover
+					background azul-corporativo
+					color white
 			&:nth-child(2n)
 				background gris-claro2
 	&-actions
@@ -661,7 +668,7 @@ body
 						textarea
 							height 6em
 				&:nth-child(2)
-					padding 2.5em 2em 1em 2em
+					padding 2.5em 2em 1em 2 em
 			.submit
 				width 9em
 				margin 0 auto
