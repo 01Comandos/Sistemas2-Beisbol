@@ -224,6 +224,168 @@
 				</div>
 			</div>
 
+			<!--ASIENTOS DISPONIBLES-->
+			<ul class="collapsible listAsientos" data-collapsible="accordion">
+				<!--ASIENTOS 1-->
+				<li>
+					<div class="collapsible-header">
+						<h5>Palco Oficial</h5>
+						<p>20/100</p>
+					</div>
+					<div class="collapsible-body">
+						<div class="item">
+							<p>1</p>
+						</div>
+
+						<div class="item active">
+							<p>2</p>
+						</div>
+
+						<div class="item">
+							<p>3</p>
+						</div>
+
+						<div class="item">
+							<p>4</p>
+						</div>
+
+						<div class="item">
+							<p>5</p>
+						</div>
+
+						<div class="item">
+							<p>6</p>
+						</div>
+
+						<div class="item">
+							<p>7</p>
+						</div>
+
+						<div class="item">
+							<p>8</p>
+						</div>
+
+						<div class="item">
+							<p>9</p>
+						</div>
+
+						<div class="item">
+							<p>10</p>
+						</div>
+
+						<div class="item">
+							<p>11</p>
+						</div>
+					</div>
+				</li>
+
+				<!--ASIENTOS 2-->
+				<li>
+					<div class="collapsible-header">
+						<h5>VIP</h5>
+						<p>20/100</p>
+					</div>
+					<div class="collapsible-body">
+						<div class="item">
+							<p>1</p>
+						</div>
+
+						<div class="item active">
+							<p>2</p>
+						</div>
+
+						<div class="item">
+							<p>3</p>
+						</div>
+
+						<div class="item">
+							<p>4</p>
+						</div>
+
+						<div class="item">
+							<p>5</p>
+						</div>
+
+						<div class="item">
+							<p>6</p>
+						</div>
+
+						<div class="item">
+							<p>7</p>
+						</div>
+
+						<div class="item">
+							<p>8</p>
+						</div>
+
+						<div class="item">
+							<p>9</p>
+						</div>
+
+						<div class="item">
+							<p>10</p>
+						</div>
+
+						<div class="item">
+							<p>11</p>
+						</div>
+					</div>
+				</li>
+
+				<!--ASIENTOS 3-->
+				<li>
+					<div class="collapsible-header">
+						<h5>Sillas Abajo</h5>
+						<p>20/100</p>
+					</div>
+					<div class="collapsible-body">
+						<div class="item">
+							<p>1</p>
+						</div>
+
+						<div class="item active">
+							<p>2</p>
+						</div>
+
+						<div class="item">
+							<p>3</p>
+						</div>
+
+						<div class="item">
+							<p>4</p>
+						</div>
+
+						<div class="item">
+							<p>5</p>
+						</div>
+
+						<div class="item">
+							<p>6</p>
+						</div>
+
+						<div class="item">
+							<p>7</p>
+						</div>
+
+						<div class="item">
+							<p>8</p>
+						</div>
+
+						<div class="item">
+							<p>9</p>
+						</div>
+
+						<div class="item">
+							<p>10</p>
+						</div>
+
+						<div class="item">
+							<p>11</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+
 			<!--SEPARADOR NOTIFICACIONES-->
 			<?php include 'inc/notificacion.php'; ?>
 

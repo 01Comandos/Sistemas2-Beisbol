@@ -18,6 +18,11 @@
 				//Iniciar selectores
 				$('select').material_select();
 
+				//INICIANDO EL COLLAPSIBLE
+				$('.collapsible').collapsible({
+			    	accordion : false
+			    });
+
 			    //PASADORES FORMULARIO LOGIN
 			    $("#recover").click(
 			    	function(){			    		
