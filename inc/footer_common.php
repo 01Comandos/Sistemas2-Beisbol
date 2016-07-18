@@ -1,10 +1,7 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
-    <!-- complementos -->
-    <script src="js/complementos.js"></script>
 	<script src="js/jquery.nicescroll.js"></script>
-	<script src="js/responsiveslides.min.js"></script>
 	<script>		
 	    $(document).ready(
 	    	function() { 

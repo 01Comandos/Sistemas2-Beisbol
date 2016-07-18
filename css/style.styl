@@ -450,6 +450,41 @@ body
 				background gris-claro2
 	&-actions
 		width 65%
+		&-buttons
+			flex-center()
+			margin-bottom 2.5em
+			.item
+				width 12em
+				a
+					flex-center()
+					padding 0.5em 0.7em 0.3em 0.7em
+					border-radius 8px
+					transition .2s linear
+					figure
+						font-size 2em
+					p
+						font-size 1em
+						padding 0.3em 0 0 0.4em
+						font-family 'Lato-Semibold',sans-serif
+				&:nth-child(1)					
+					a
+						background verde-corporativo
+						border-bottom 6px solid verde-sombra
+						p
+							color white
+						&:hover
+							background verde-sombra
+				&:nth-child(2)
+					margin-left 0.7em
+					a
+						background gris2
+						border-bottom 6px solid gris-texto
+						p
+							color gris-texto
+						&:hover
+							background gris-texto
+							p
+								color white
 		&-titleVendedor
 			background white
 			border-radius 5px
@@ -534,13 +569,15 @@ body
 						
 						&:nth-child(2)
 							width 40%
-							h4
-								font-size 1em
-								color naranja
-								width 100%
-							h3
-								font-size 1.1em
-								width 100%
+							.item
+								padding-top 1.9em
+								h4
+									font-size 1em
+									color naranja
+									width 100%
+								h3
+									font-size 1.1em
+									width 100%
 				.partidoEspectador
 					width 48%
 					border-radius 0 9px 9px 0

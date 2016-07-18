@@ -133,98 +133,29 @@
 
 		<!--ACCIONES-->
 		<article class="u-general-actions">
-			<!--SEPARADOR BOLETOS VENDEDOR-->
-			<div class="u-general-actions-titleVendedor">
-				<figure>
-					<span class="icon-Beisbol_pelota"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
-				</figure>
-				<p>Boletos</p>
+			<!--CREAR-->
+			<div class="u-general-actions-buttons">
+				<!--NUEVO PARTIDO-->
+				<div class="item">
+					<a href="newPlay.php">
+						<figure>
+							<span class="icon-Beisbol_pelota"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
+						</figure>
+						<p>Nuevo Partido</p>
+					</a>
+				</div>
+
+				<!--NUEVO VENDEDOR-->
+				<div class="item">
+					<a href="newVendedor.php">
+						<figure>
+							<span class="icon-Beisbol_newVendedor"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span></span>
+						</figure>
+						<p>Nuevo Vendedor</p>
+					</a>
+				</div>
 			</div>
 
-			<!--BOLETOS A LA VENTA-->
-			<ul class="buyTickets">
-				<!--PARTIDO 1-->
-				<li>
-					<a href="newTicket.php">
-						<div class="partidoContainer">
-							<figure>
-								<img src="img/miami.jpg" alt="">
-								<p>Miami</p>
-							</figure>
-							<div class="vs">
-								<span class="icon-Beisbol_vs"></span>
-							</div>
-							<!--EQUIPO 2-->
-							<figure>
-								<img src="img/yankees.jpg" alt="">
-								<p>Yankees</p>
-							</figure>
-						</div>
-					</a>
-				</li>
-
-				<!--PARTIDO 2-->
-				<li>
-					<a href="newTicket.php">
-						<div class="partidoContainer">
-							<figure>
-								<img src="img/indios.jpg" alt="">
-								<p>Indios</p>
-							</figure>
-							<div class="vs">
-								<span class="icon-Beisbol_vs"></span>
-							</div>
-							<!--EQUIPO 2-->
-							<figure>
-								<img src="img/orioles.jpg" alt="">
-								<p>Orioles</p>
-							</figure>
-						</div>
-					</a>
-				</li>
-
-				<!--PARTIDO 3-->
-				<li>
-					<a href="newTicket.php">
-						<div class="partidoContainer">
-							<!--EQUIPO 1-->
-							<figure>
-								<img src="img/toronto.jpg" alt="">
-								<p>Toronto</p>
-							</figure>
-							<div class="vs">
-								<span class="icon-Beisbol_vs"></span>
-							</div>
-							<!--EQUIPO 2-->
-							<figure>
-								<img src="img/ubs.jpg" alt="">
-								<p>UBS</p>
-							</figure>
-						</div>
-					</a>
-				</li>
-
-				<!--PARTIDO 4-->
-				<li>
-					<a href="newTicket.php">
-						<div class="partidoContainer">
-							<!--EQUIPO 1-->
-							<figure>
-								<img src="img/mets.jpg" alt="">
-								<p>Mets</p>
-							</figure>
-							<div class="vs">
-								<span class="icon-Beisbol_vs"></span>
-							</div>
-							<!--EQUIPO 2-->
-							<figure>
-								<img src="img/miami.jpg" alt="">
-								<p>Miami</p>
-							</figure>
-						</div>
-					</a>
-				</li>
-			</ul>
 
 			<!--SEPARADOR NOTIFICACIONES-->
 			<div class="u-general-actions-titleVendedor notificaciones">
