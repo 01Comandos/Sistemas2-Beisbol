@@ -841,16 +841,19 @@ body
 						&:before
 							display none
 					&:checked ~ ul
-						right 0
+						/*right 0*/
+						display block
 				ul
 					background white
 					border-radius 2px
 					box-shadow 0 2px 3px rgba(0,0,0,0.23)
 					padding 0.5em
 					position absolute
-					right -6.5em
+					/*right -6.5em*/
+					right 0
+					display none
 					top 0.6em
-					transition .4s linear
+					transition .9s linear
 					width 6em
 					z-index 5
 					li
