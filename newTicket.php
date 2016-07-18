@@ -9,7 +9,7 @@
 	<section class="u-ticket">
 		<!--REGRESAR-->
 		<article class="u-ticket-return">
-			<a href="index.php">
+			<a href="index.php" class="enlace">
 				<span class="icon-Beisbol_left"></span>
 				<p>Regresar</p>
 			</a>

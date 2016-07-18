@@ -454,17 +454,17 @@ body
 			flex-center()
 			margin-bottom 2.5em
 			.item
-				width 12em
+				width 11em
 				a
 					flex-center()
-					padding 0.5em 0.7em 0.3em 0.7em
+					padding 0.5em 0.5em 0.3em 0.5em
 					border-radius 8px
 					transition .2s linear
 					figure
-						font-size 2em
+						font-size 1.5em
 					p
 						font-size 1em
-						padding 0.3em 0 0 0.4em
+						padding 0.1em 0 0 0.4em
 						font-family 'Lato-Semibold',sans-serif
 				&:nth-child(1)					
 					a
@@ -689,11 +689,11 @@ body
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------*/
 .u-ticket
-	width 53em
+	width 55em
 	margin 2.5em auto
 	&-return
-		width 7.5em
 		margin-bottom 1.5em
+		position relative
 		a
 			display inline-block
 			background gris2
@@ -710,6 +710,13 @@ body
 				background verde-corporativo
 				border-bottom 4px solid verde-sombra
 				color white
+			&.enlace
+				width 7.5em
+		.btn-master
+			position absolute
+			top 0
+			right 0		
+	
 	&-container
 		background white
 		border-radius 8px
@@ -784,12 +791,44 @@ body
 						textarea
 							height 6em
 				&:nth-child(2)
-					padding 2.5em 2em 1em 2 em
+					padding 2.5em 2em 1em 2em
 			.submit
 				width 9em
 				margin 0 auto
 				input
 					text-indent 0
+					
+	&-employees
+		flex-between()
+		margin-top 1.9em
+		.item
+			width 31%
+			background white
+			box-shadow 0 2px 3px rgba(0,0,0,0.23)
+			margin-bottom 1em
+			border-radius 7px
+			figure
+				width 5em
+				margin 1.5em auto 0.7em auto
+				img
+					width 100%
+					border-radius 50%
+			h4
+				font-size 1.1em
+				text-align center
+				font-family 'Lato-Semibold',sans-serif
+			.datos
+				margin-top 0.7em
+				&-item
+					flex-flexStart()
+					padding 0.5em 0.5em 0.5em 0
+					span
+						width 2em
+						text-align center
+						font-size 1.5em
+						color gris1
+				
+			
 
 
 
