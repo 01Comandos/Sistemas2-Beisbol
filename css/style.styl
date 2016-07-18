@@ -450,7 +450,7 @@ body
 				background gris-claro2
 	&-actions
 		width 65%
-		&-buttons
+		/.btn-master
 			flex-center()
 			margin-bottom 2.5em
 			.item
@@ -485,6 +485,54 @@ body
 							background gris-texto
 							p
 								color white
+		&-details
+			display flex
+			background white
+			margin-bottom 1.5em
+			.item
+				width 33%
+				&:nth-child(1)
+					img
+						width 100%
+				&:nth-child(2)
+					text-align center
+					padding-top 1em
+					background gris-claro2
+					h3
+						color naranja
+						font-size 1em
+						width 100%
+					.itemPartido
+						margin-top 0.5em
+						flex-center()
+						figure
+							text-align center
+							img
+								border-radius 50%
+								border 4px solid azul-corporativo
+								width 4em
+						.vs
+							color verde-corporativo
+							font-size 1.3em
+							padding 1.5em 0.7em
+						h4
+							font-size 1em
+							width 100%
+						h2
+							font-size 1.7em
+							width 100%
+				&:nth-child(3)
+					flex-between()
+					padding 1em
+					.itemAsiento
+						width 50%
+						h4
+							font-size 1em
+						p
+							color verde-corporativo
+					
+					
+			
 		&-titleVendedor
 			background white
 			border-radius 5px

@@ -156,6 +156,74 @@
 				</div>
 			</div>
 
+			<!--DETALLES DEL PARTIDO-->
+			<div class="u-general-actions-details">
+				<!--IMAGEN DEL ESTADIO-->
+				<figure class="item">
+					<img src="img/estadioA.jpg" alt="">
+				</figure>
+				
+				<!--RESUMEN DEL PARTIDO-->
+				<div class="item">
+					<h3>17:00 - 11Julio2016</h3>
+					<!--EQUIPOS-->
+					<div class="itemPartido">
+						<!--EQUIPO 1-->
+						<figure>
+							<img src="img/miami.jpg" alt="">
+							<p>Miami</p>
+						</figure>
+						<div class="vs">
+							<span class="icon-Beisbol_vs"></span>
+						</div>
+						<!--EQUIPO 2-->
+						<figure>
+							<img src="img/yankees.jpg" alt="">
+							<p>Yankees</p>
+						</figure>
+					</div>
+
+					<!--PRECIO Y ASIENTOS-->
+					<div class="itemPartido">
+						<h4>398 Asientos - A</h4>
+						<h2>€ 5.064,00</h2>
+					</div>
+				</div>
+
+				<!--RESUMEN DE ASIENTOS-->
+				<div class="item">
+					<!--ASIENTO 1-->
+					<div class="itemAsiento">
+						<h4>Palco Oficial</h4>
+						<p>20/100</p>
+					</div>
+
+					<!--ASIENTO 2-->
+					<div class="itemAsiento">
+						<h4>Sillas Arriba</h4>
+						<p>20/100</p>
+					</div>
+
+					<!--ASIENTO 3-->
+					<div class="itemAsiento">
+						<h4>VIP</h4>
+						<p>20/100</p>
+					</div>
+
+					<!--ASIENTO 4-->
+					<div class="itemAsiento">
+						<h4>Sillas Laterales</h4>
+						<p>20/100</p>
+					</div>
+
+					<!--ASIENTO 5-->
+					<div class="itemAsiento">
+						<h4>Sillas Abajo</h4>
+						<p>20/100</p>
+					</div>
+				</div>
+			</div>
+
 			<!--SEPARADOR NOTIFICACIONES-->
 			<?php include 'inc/notificacion.php'; ?>
 
