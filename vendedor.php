@@ -46,6 +46,7 @@
 					<img src="img/empleado1.jpg" alt="">
 				</figure>
 				<h4>Luca Brasi</h4>
+				<!--DATOS DEL EMPLEADO-->
 				<div class="datos">
 					<!--EMAIL-->
 					<div class="datos-item">
@@ -70,6 +71,26 @@
 						<span class="icon-Beisbol_cumple"></span>
 						<p>01 de Enero de 1985</p>
 					</div>
+				</div>
+
+				<!--MENU DEL EMPLEADO-->
+				<div class="submenu">
+					<input type="checkbox" id="menuConfig">
+					<label for="menuConfig">
+						<span class="icon-Beisbol_submenu"></span>
+					</label>
+					<ul>
+						<li>
+							<a href="#">
+								Editar
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Eliminar
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 
@@ -104,6 +125,26 @@
 						<p>01 de Enero de 1985</p>
 					</div>
 				</div>
+
+				<!--MENU DEL EMPLEADO-->
+				<div class="submenu">
+					<input type="checkbox" id="menuConfig2">
+					<label for="menuConfig2">
+						<span class="icon-Beisbol_submenu"></span>
+					</label>
+					<ul>
+						<li>
+							<a href="#">
+								Editar
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Eliminar
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 
 			<!--EMPLEADO 3-->
@@ -137,6 +178,26 @@
 						<p>01 de Enero de 1985</p>
 					</div>
 				</div>
+
+				<!--MENU DEL EMPLEADO-->
+				<div class="submenu">
+					<input type="checkbox" id="menuConfig3">
+					<label for="menuConfig3">
+						<span class="icon-Beisbol_submenu"></span>
+					</label>
+					<ul>
+						<li>
+							<a href="#">
+								Editar
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Eliminar
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 
 			<!--EMPLEADO 4-->
@@ -169,6 +230,26 @@
 						<span class="icon-Beisbol_cumple"></span>
 						<p>01 de Enero de 1985</p>
 					</div>
+				</div>
+
+				<!--MENU DEL EMPLEADO-->
+				<div class="submenu">
+					<input type="checkbox" id="menuConfig4">
+					<label for="menuConfig4">
+						<span class="icon-Beisbol_submenu"></span>
+					</label>
+					<ul>
+						<li>
+							<a href="#">
+								Editar
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Eliminar
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</article>
