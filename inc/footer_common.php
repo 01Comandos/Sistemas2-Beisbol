@@ -73,7 +73,7 @@
 				    transition: function(url){ window.location.href = url; }
 			    });
 
-	    	}
+		    }
 	    );
 
 	    //INICIALIZAR MODALES

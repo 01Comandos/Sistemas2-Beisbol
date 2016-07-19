@@ -23,7 +23,16 @@
 			</div>
 
 			<!--FORMULARIO-->
-			<form action="" class="formPlay">
+			<form action="" class="formPlay newVendedor">
+				<!--upload imagen-->
+				<div class="photoContainer">
+					<ul class="photoList">
+			      		<li>
+			              <span class="icon-Beisbol_upload"></span>
+			              <input type="file" class="file" name="logo" onchange='LimitAttach(this,1)'>
+			            </li>
+			      	</ul>
+				</div>
 				<!--ZONA A-->
 				<div class="formContainer">
 					<!--NOMBRE-->
@@ -80,7 +89,7 @@
 
 				<!--BOTON INPUT-->
 				<div class="itemForm submit">
-					<input type="submit" value="Crear Partido" class="btn-main">
+					<input type="submit" value="Guardar" class="btn-main">
 				</div>
 			</form>
 		</article>
