@@ -253,9 +253,6 @@
 				</div>
 			</div>
 		</article>
-
-
-
 	</section>
 	
 

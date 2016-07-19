@@ -15,7 +15,7 @@
 -------------------------------------------------------------------------*/
 @import 'nib'
 @import 'style-icon.styl'
-@import 'rslides.styl'
+@import 'wickedpicker.styl'
 
 
 @font-face 
@@ -797,6 +797,24 @@ body
 				margin 0 auto
 				input
 					text-indent 0
+			&.formPlay
+				flex-between()
+				.formContainer
+					padding 1em 2em
+					width 48%
+					.itemForm
+						inputs()
+					figure
+						img
+							width 100%
+
+					&:nth-child(1)
+					&:nth-child(2)
+						.itemForm
+							width 100%
+					&:nth-child(3)
+						width 100%
+					
 					
 	&-employees
 		flex-between()

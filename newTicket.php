@@ -122,6 +122,7 @@
 			</form>
 		</article>
 	</section>
-	
+
+	<?php include 'inc/footer_common.php'; ?>	
 </body>
 </html>
