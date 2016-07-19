@@ -3,7 +3,7 @@
 <head>
 	<?php include 'inc/head_common.php'; ?>	
 </head>
-<body class="bodyLogin">
+<body class="bodyLogin pagina">
 	
 	<!--LOGIN-->
 	<section class="loginContainer">

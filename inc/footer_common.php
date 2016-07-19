@@ -2,8 +2,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
 	<script src="js/jquery.nicescroll.js"></script>
+	<!--PLUGIN PARA LA HORA-->
 	<script type="text/javascript" src="js/wickedpicker.js"></script>
-	<script src="js/custominputfile.min-es.js"></script>	
+	<script src="js/custominputfile.min-es.js"></script>
+
+	<!--PLUGIN PARA TRANSICION ENTRE PAGINAS-->
+    <script src="js/animsition.min.js"></script>
+
+
 	<script>		
 	    $(document).ready(
 	    	function() { 
@@ -41,7 +47,31 @@
 			    		$(".recoverForm").hide("slow");
 			    		$(".loginForm").show("slow");	
 			    	}
-			    );	
+			    )
+
+			    //ANIMACIONES ENTRE PAGINAS
+			    $(".pagina").animsition({
+			    	inClass: 'fade-in-left-sm',
+				    outClass: 'fade-out-left-sm',
+				    inDuration: 1500,
+				    outDuration: 800,
+				    linkElement: '.animsition-link',
+				    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+				    loading: true,
+				    loadingParentElement: 'body', //animsition wrapper element
+				    loadingClass: 'animsition-loading',
+				    loadingInner: '', // e.g '<img src="loading.svg" />'
+				    timeout: false,
+				    timeoutCountdown: 5000,
+				    onLoadEvent: true,
+				    browser: [ 'animation-duration', '-webkit-animation-duration'],
+				    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+				    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+				    overlay : false,
+				    overlayClass : 'animsition-overlay-slide',
+				    overlayParentElement : 'body',
+				    transition: function(url){ window.location.href = url; }
+			    });
 
 	    	}
 	    );

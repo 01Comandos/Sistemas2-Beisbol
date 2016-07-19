@@ -3,7 +3,7 @@
 <head>
 	<?php include 'inc/head_common.php'; ?>	
 </head>
-<body>	
+<body class="pagina">	
 	<?php include 'inc/header.php'; ?>
 	
 	<section class="u-general">
