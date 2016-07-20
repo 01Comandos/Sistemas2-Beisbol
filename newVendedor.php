@@ -88,7 +88,7 @@
 				</div>
 
 				<!--BOTON INPUT-->
-				<div class="itemForm submit">
+				<div class="itemForm submit2">
 					<input type="submit" value="Guardar" class="btn-main">
 				</div>
 			</form>

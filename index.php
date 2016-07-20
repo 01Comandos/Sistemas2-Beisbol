@@ -279,6 +279,69 @@
 						</div>
 					</div>
 				</li>
+
+				<!--TICKET 2-->
+				<li>
+					<!--DATOS DEL JUEGO-->
+					<div class="ticket-juego">
+						<!--PARTIDO-->
+						<div class="partidoContainer">
+							<h2>0F58E01</h2>
+							<figure>
+								<img src="img/miami.jpg" alt="">
+								<p>Miami</p>
+							</figure>
+							<div class="vs">
+								<span class="icon-Beisbol_vs"></span>
+							</div>
+							<!--EQUIPO 2-->
+							<figure>
+								<img src="img/yankees.jpg" alt="">
+								<p>Yankees</p>
+							</figure>
+						</div>
+
+						<!--FECHA-->
+						<div class="partidoContainer">
+							<div class="item">
+								<h4>17:00 - 11Julio2016</h4>
+								<h3>Estadio A</h3>
+							</div>							
+						</div>
+					</div>
+
+					<!--DATOS DE BOLETO-->
+					<div class="partidoEspectador reservado">
+						<!--DATOS DEL COMPRADOR-->
+						<div class="item">
+							<h3>@01Comandos</h3>
+							<div class="item-date">
+								<p>C.I: 5.547.382</p>
+								<p>2 Asientos - VIP</p>
+								<p>22 - 23</p>
+							</div>
+						</div>
+
+						<!--TOTAL DEL BOLETO-->
+						<div class="item">
+							<h2>€ 30,10</h2>
+						</div>
+
+						<!--MENU BOLETO RESERVADO-->
+						<div class="reservaOptions">
+							<!-- Dropdown Trigger -->
+							<a class='dropdown-button' href='#' data-activates='dropdown1'>
+								<span class="icon-Beisbol_submenu"></span>
+							</a>
+
+							<!-- Dropdown Structure -->
+							<ul id='dropdown1' class='dropdown-content'>
+								<li><a href="#!">Confirmar</a></li>
+								<li><a href="#!">Eliminar</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
 			</ul>
 		</article>
 	</section>

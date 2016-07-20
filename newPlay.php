@@ -114,7 +114,7 @@
 				</div>
 
 				<!--BOTON INPUT-->
-				<div class="itemForm submit">
+				<div class="itemForm submit2">
 					<input type="submit" value="Crear Partido" class="btn-main">
 				</div>
 			</form>

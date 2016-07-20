@@ -647,6 +647,7 @@ body
 						background gris2
 		&-tickets
 			li
+				margin-bottom 1em
 				flex-between()
 				.ticket-juego
 					border-left 8px solid verde-corporativo
@@ -708,6 +709,19 @@ body
 							padding-left 0
 							h2
 								font-size 1.3em
+					&.reservado
+						background azul3
+						position relative
+						.reservaOptions
+							position absolute
+							top 0.5em
+							right 0.5em
+							.dropdown-button
+								color white
+								font-size 1.2em
+							ul
+								li
+									margin 0
 									
     			
 /*
@@ -834,6 +848,12 @@ body
 							background gris1 !important
 							&:hover
 								background gris-texto !important
+			.submit2
+				width 9em
+				margin 0 auto
+				display inline-block
+				input
+					text-indent 0
 			&.formPlay
 				flex-between()
 				.formContainer
