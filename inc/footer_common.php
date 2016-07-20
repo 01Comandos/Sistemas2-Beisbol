@@ -49,6 +49,13 @@
 			    	}
 			    )
 
+			    //FORMULARIO SEARCH
+			    $("#searchNotification").click(
+			    	function(){			    		
+			    		$(".inputNotification").toggle("slow");
+			    	}
+			    );
+
 			    //ANIMACIONES ENTRE PAGINAS
 			    $(".pagina").animsition({
 			    	inClass: 'fade-in-left-sm',

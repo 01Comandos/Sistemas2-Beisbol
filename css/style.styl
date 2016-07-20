@@ -576,21 +576,45 @@ body
 				padding 0 0 0 0.5em
 			&.notificaciones
 				position relative
+				padding 1em
 				figure
 					span
 						color azul-corporativo
 				.search
 					position absolute
 					right 1em
-					a
-						display inline-block
-						span
-							color gris1
-							transition .2s linear
-							font-size 1.5em
-						&:hover
-							span
-								color azul-ticket
+					width 60%
+					top -0.3em
+					form
+						position relative
+						flex-between()
+						.itemForm
+							width 15%
+							position absolute
+							a
+								display inline-block
+								border 2px solid gris1
+								padding 0.5em
+								border-radius 50%
+								transition 0.2s linear
+								span
+									color gris1
+									transition .2s linear
+									font-size 1.5em
+								&:hover
+									background azul-ticket
+									border 2px solid azul-ticket
+									span
+										color white							
+							&:nth-child(1)
+								width 85%
+								display none
+								top 0
+								left 0
+							&:nth-child(2)
+								top 0.8em
+								right 0
+							
 		.buyTickets
 			margin 1em 0 2em 0 
 			padding 0
