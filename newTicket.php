@@ -79,6 +79,14 @@
 							<input id="cantidad" type="text" class="validate">	          	
 						</div>
 
+						<!--TOTAL RESERVA-->
+						<div class="itemForm total">
+							<figure>
+								<span class="icon-Beisbol_money"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span></span>
+							</figure>
+							<p>€ 20,00</p>
+						</div>
+
 						<!--TOTAL-->
 						<div class="itemForm total">
 							<figure>
@@ -115,10 +123,19 @@
 					</div>						
 				</div>
 
-				<!--BOTON INPUT-->
-				<div class="itemForm submit">
-					<input type="submit" value="Vender Boleto" class="btn-main">
+				<!--BOTONES-->
+				<div class="submitContainer">
+					<!--BOTON COMPRAR-->
+					<div class="itemForm submit">
+						<input type="submit" value="Reservar Boleto" class="btn-main">
+					</div>
+					
+					<!--BOTON COMPRAR-->
+					<div class="itemForm submit">
+						<input type="submit" value="Vender Boleto" class="btn-main">
+					</div>
 				</div>
+									
 			</form>
 		</article>
 	</section>

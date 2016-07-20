@@ -602,7 +602,7 @@ body
 								span
 									color gris1
 									transition .2s linear
-									font-size 1.5em
+									font-size 1.2em
 								&:hover
 									background azul-ticket
 									border 2px solid azul-ticket
@@ -614,7 +614,7 @@ body
 								top 0
 								left 0
 							&:nth-child(2)
-								top 0.8em
+								top 1em
 								right 0
 							
 		.buyTickets
@@ -790,14 +790,17 @@ body
 							color verde-corporativo
 							font-size 0.9em
 						&:nth-child(1)						
-						&:nth-child(4)
-						&:nth-child(5)
+						&:nth-child(4)						
 							width 30%
 						&:nth-child(2)
 							width 65%
 						&:nth-child(3)
 							width 30%
 							margin 0
+						&:nth-child(5)
+							width 20%
+							p
+								color azul4
 							
 					.total
 						padding-top 0.5em
@@ -818,11 +821,19 @@ body
 							height 6em
 				&:nth-child(2)
 					padding 2.5em 2em 1em 2em
-			.submit
-				width 9em
-				margin 0 auto
-				input
-					text-indent 0
+			.submitContainer
+				flex-center()
+				.submit
+					width 9em
+					display inline-block
+					input
+						text-indent 0
+					&:nth-child(1)
+						margin-right 0.5em
+						input
+							background gris1 !important
+							&:hover
+								background gris-texto !important
 			&.formPlay
 				flex-between()
 				.formContainer
